@@ -1,0 +1,48 @@
+ul{
+    list-style: none;
+margin:none;
+padding :none;
+}
+li{
+  float: left;  
+}
+li a{
+    display: block;
+    padding-inline-start: 80px ;width:; height: 2cm;
+    background-color: teal;
+}
+
+/* unvisited link */
+a:link {
+  color:yellowgreen;
+}
+
+/* visited link */
+a:visited {
+  color:navy;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+  font-size:30px;
+}
+
+/* selected link */
+a:active {
+  color:pink;
+}
+div {
+    background-color:purple;
+    color: white;
+    padding: 35px;
+    text-align: center;
+  }
+  
+  div:hover {
+    background-color: blue;
+  }
+
+
+
+  
